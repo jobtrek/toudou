@@ -61,6 +61,11 @@
     ],
     "phpstan": [
       "./vendor/bin/phpstan analyse"
+    ],
+    "ide-helper-generate": [
+      "@php artisan ide-helper:generate",
+      "@php artisan ide-helper:models -F helpers/HelperModels.php -M",
+      "@php artisan ide-helper:meta"
     ]
   },
   "extra": {
