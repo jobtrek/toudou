@@ -5,9 +5,10 @@ use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Auth\AuthenticationException;
 
 return [
-    'title' => 'API Platform',
-    'description' => 'My awesome API',
+    'title' => 'Todos API',
+    'description' => 'Store and retrieve todos',
     'version' => '1.0.0',
+    'show_webby' => false,
 
     'routes' => [
         // Global middleware applied to every API Platform routes
@@ -21,6 +22,7 @@ return [
     'formats' => [
         'jsonld' => ['application/ld+json'],
         //'jsonapi' => ['application/vnd.api+json'],
+        'jsonopenapi' => ['application/vnd.openapi+json'],
         //'csv' => ['text/csv'],
     ],
 
@@ -30,7 +32,7 @@ return [
 
     'docs_formats' => [
         'jsonld' => ['application/ld+json'],
-        //'jsonapi' => ['application/vnd.api+json'],
+        'jsonapi' => ['application/vnd.api+json'],
         'jsonopenapi' => ['application/vnd.openapi+json'],
         'html' => ['text/html'],
     ],
