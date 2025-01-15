@@ -11,6 +11,7 @@
   "license": "MIT",
   "require": {
     "php": "^8.4",
+    "api-platform/laravel": "^4.0",
     "inertiajs/inertia-laravel": "^2.0",
     "laravel/framework": "^11.31",
     "laravel/sanctum": "^4.0",
