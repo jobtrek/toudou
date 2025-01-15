@@ -9,4 +9,11 @@ class Todo extends Model
 {
     /** @use HasFactory<\Database\Factories\TodoFactory> */
     use HasFactory;
+
+    protected function casts(): array
+    {
+        return [
+            'due_date' => 'datetime:Y-m-d',
+        ];
+    }
 }
