@@ -1,0 +1,33 @@
+# A traefik dynamic configuration you can use with this project
+
+http:
+  routers:
+    toudou-api:
+      rule: Host(`my.domain`)
+      entryPoints:
+        - websecure
+      tls:
+        certResolver: yourCertResolver
+      service: toudou-api
+      middlewares:
+        - compression
+    toudou-swagger:
+      rule: Host(`swagger.my.domain`)
+      entryPoints:
+        - websecure
+      tls:
+        certResolver: yourCertResolver
+      service: toudou-swagger
+      middlewares:
+        - compression
+  services:
+    toudou-api:
+      loadBalancer:
+        servers:
+          - url: http://127.0.0.1:3000
+        passHostHeader: true
+    toudou-swagger:
+      loadBalancer:
+        servers:
+          - url: http://127.0.0.1:8080
+        passHostHeader: true
