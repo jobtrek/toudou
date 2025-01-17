@@ -1,3 +1,40 @@
-### Get all todos from api
-GET http://localhost:3000/todos
+@api-endpoint=http://localhost:3000
 
+### Get all todos from api
+GET  {{api-endpoint}}/todos
+Accept: application/json
+
+### Get one todo by id
+GET {{api-endpoint}}/todos?id=eq.1
+Accept: application/vnd.pgrst.object+json
+
+### Get one todo by with categorie
+GET {{api-endpoint}}/todos?select=*,categories(*)
+Accept: application/vnd.pgrst.object+json
+
+### Add a todo
+POST {{api-endpoint}}/todos
+Content-Type: application/json
+
+{
+  "title": "My todo",
+  "due_date": "2025-02-10"
+}
+
+### Add a categorie
+POST {{api-endpoint}}/categories
+Content-Type: application/json
+
+{
+  "title": "personal",
+  "color": "#e74c3c"
+}
+
+### Link a categorie to a todo
+POST {{api-endpoint}}/categories_todos
+Content-Type: application/json
+
+{
+  "todo_id": 1,
+  "categorie_id": 1
+}
