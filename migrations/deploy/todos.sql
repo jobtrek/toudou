@@ -4,7 +4,7 @@ BEGIN;
 
 -- data definition
 create table api.todos (
-    id bigint generated always as identity,
+    id bigint primary key generated always as identity,
     title varchar (250) not null,
     content text,
     due_date date,
