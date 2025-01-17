@@ -8,31 +8,38 @@ services:
       - POSTGRES_DB=${POSTGRES_DB}
       - DB_ANON_ROLE=${DB_ANON_ROLE}
       - DB_SCHEMA=${DB_SCHEMA}
+      - DB_PGRST_AUTHENTICATOR_ROLE=${DB_PGRST_AUTHENTICATOR_ROLE}
+      - DB_PGRST_AUTHENTICATOR_PASS=${DB_PGRST_AUTHENTICATOR_PASS}
     volumes:
       - pgsql-data:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d
       - ./postgresql.conf:/etc/postgresql/postgresql.conf
     networks:
       - toudou-internal
+    ports:
+      - "5432:5432"
     healthcheck:
       test:
         - CMD
         - pg_isready
         - '-q'
         - '-d'
-        - '${DB_DATABASE}'
+        - '${POSTGRES_DB}'
         - '-U'
-        - '${DB_USERNAME}'
+        - '${POSTGRES_USER}'
       retries: 3
       timeout: 5s
 
   on-startup-migration:
     image: sqitch/sqitch
     environment:
-      - SQITCH_TARGET="db:pg://postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@pgsql:5432/${POSTGRES_DB}"
+      - SQITCH_TARGET="db:pg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@pgsql:5432/${POSTGRES_DB}"
     volumes:
       - "./migrations:/repo"
     command:
       - "deploy"
+    networks:
+      - toudou-internal
     depends_on:
       pgsql:
         condition: service_healthy
@@ -46,15 +53,15 @@ services:
     restart: unless-stopped
     environment:
       - PGRST_JWT_SECRET="${JWT_SECRET}"
-      - PGRST_DB_URI=postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@pgsql:5432/${POSTGRES_DB}
+      - PGRST_DB_URI=postgres://${DB_PGRST_AUTHENTICATOR_ROLE}:${DB_PGRST_AUTHENTICATOR_PASS}@pgsql:5432/${POSTGRES_DB}
       - PGRST_DB_ANON_ROLE=${DB_ANON_ROLE}
       - PGRST_DB_SCHEMAS=${DB_SCHEMA}
       - PGRST_OPENAPI_SERVER_PROXY_URI=http://localhost:3000
-      - PGRST_OPENAPI_MODE="ignore-privileges"
+      - PGRST_OPENAPI_MODE=ignore-privileges
     depends_on:
       pgsql:
         condition: service_healthy
-      migration:
+      on-startup-migration:
         condition: service_completed_successfully
 
   swagger-ui:
