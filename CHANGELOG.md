@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.3](https://github.com/jobtrek/toudou/compare/v0.1.2...v0.1.3) (2025-01-17)
+
+
+### Bug Fixes
+
+* db schema env var not used in init script ([#10](https://github.com/jobtrek/toudou/issues/10)) ([1cb11d9](https://github.com/jobtrek/toudou/commit/1cb11d98e78e392ee6032d3fa028d3ed5a75a722))
+
+
+### Documentation
+
+* http calls example ([#12](https://github.com/jobtrek/toudou/issues/12)) ([0b4944a](https://github.com/jobtrek/toudou/commit/0b4944af1a9a5f4155efaba30f40bf66184030f7))
+
 ## [0.1.2](https://github.com/jobtrek/toudou/compare/v0.1.1...v0.1.2) (2025-01-17)
 
 
