@@ -2,6 +2,6 @@
 
 BEGIN;
 
--- XXX Add verifications here.
+-- TODO
 
 ROLLBACK;
