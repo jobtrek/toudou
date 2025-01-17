@@ -1,0 +1,3 @@
+### Get all todos from api
+GET http://localhost:3000/todos
+
