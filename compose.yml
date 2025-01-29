@@ -48,6 +48,7 @@ services:
     image: postgrest/postgrest:v12.2.3
     ports:
       - "3000:3000"
+      - "3001:3001"
     networks:
       - toudou-internal
     restart: unless-stopped
@@ -58,6 +59,7 @@ services:
       - PGRST_DB_SCHEMAS=${DB_SCHEMA}
       - PGRST_OPENAPI_SERVER_PROXY_URI=http://localhost:3000
       - PGRST_OPENAPI_MODE=ignore-privileges
+      - PGRST_ADMIN_SERVER_PORT=3001
     depends_on:
       pgsql:
         condition: service_healthy
