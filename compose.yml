@@ -48,6 +48,7 @@ services:
     image: postgrest/postgrest:v12.2.3
     ports:
       - "3000:3000"
+      - "3001:3001"
     networks:
       - toudou-internal
     restart: unless-stopped
