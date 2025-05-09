@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.4](https://github.com/jobtrek/toudou/compare/v0.1.3...v0.1.4) (2025-05-09)
+
+
+### Documentation
+
+* readme add command to launch prod or dev compose ([01cf81a](https://github.com/jobtrek/toudou/commit/01cf81a7c1b55fb106b4d93508536b7db33f6a8d))
+
+
+### Build System
+
+* move restart policy to a compose production override ([#14](https://github.com/jobtrek/toudou/issues/14)) ([01cf81a](https://github.com/jobtrek/toudou/commit/01cf81a7c1b55fb106b4d93508536b7db33f6a8d))
+
 ## [0.1.3](https://github.com/jobtrek/toudou/compare/v0.1.2...v0.1.3) (2025-01-29)
 
 
