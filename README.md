@@ -22,7 +22,8 @@ This repo consists of a compose file with 4 containers :
 cp .env.example .env
 
 # Start the containers
-docker compose up -d
+docker compose up -d # For local dev
+docker compose -f compose.yaml -f compose.prod.yaml up -d # for production use
 ```
 
 - The database is available on port `5432`.
