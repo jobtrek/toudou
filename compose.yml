@@ -1,7 +1,6 @@
 services:
   pgsql:
     image: postgres:17.2
-    restart: unless-stopped
     environment:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
@@ -51,7 +50,6 @@ services:
       - "3001:3001"
     networks:
       - toudou-internal
-    restart: unless-stopped
     environment:
       - PGRST_JWT_SECRET="${JWT_SECRET}"
       - PGRST_DB_URI=postgres://${DB_PGRST_AUTHENTICATOR_ROLE}:${DB_PGRST_AUTHENTICATOR_PASS}@pgsql:5432/${POSTGRES_DB}
@@ -72,7 +70,6 @@ services:
       - "8080:8080"
     environment:
       - API_URL=http://localhost:3000/
-    restart: unless-stopped
 
 volumes:
   pgsql-data:

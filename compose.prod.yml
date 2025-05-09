@@ -1,0 +1,7 @@
+services:
+  pgsql:
+    restart: unless-stopped
+  postgrest:
+    restart: unless-stopped
+  swagger-ui:
+    restart: unless-stopped
