@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/jobtrek/toudou/compare/v0.1.5...v0.1.6) (2025-05-27)
+
+
+### Build System
+
+* add missing env var to .env ([#22](https://github.com/jobtrek/toudou/issues/22)) ([4547fa1](https://github.com/jobtrek/toudou/commit/4547fa19380ea61ead65c2a05459fc2db86a5479))
+
 ## [0.1.5](https://github.com/jobtrek/toudou/compare/v0.1.4...v0.1.5) (2025-05-27)
 
 
