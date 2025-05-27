@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.5](https://github.com/jobtrek/toudou/compare/v0.1.4...v0.1.5) (2025-05-27)
+
+
+### Miscellaneous Chores
+
+* add docker compose to dependabot ([#16](https://github.com/jobtrek/toudou/issues/16)) ([0f242f3](https://github.com/jobtrek/toudou/commit/0f242f3d497821340f5db7aa348e58c2e6693bbc))
+
+
+### Build System
+
+* update compose file to use env vars for ports ([#21](https://github.com/jobtrek/toudou/issues/21)) ([d72d5ac](https://github.com/jobtrek/toudou/commit/d72d5ac71a1a0be3b19a0e28c3a357d46c7d0ec5))
+
 ## [0.1.4](https://github.com/jobtrek/toudou/compare/v0.1.3...v0.1.4) (2025-05-09)
 
 
