@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.9](https://github.com/jobtrek/toudou/compare/v0.1.8...v0.1.9) (2025-06-27)
+
+
+### Build System
+
+* **deps:** bump postgrest/postgrest from v13.0.2 to v13.0.4 ([#30](https://github.com/jobtrek/toudou/issues/30)) ([a67a66e](https://github.com/jobtrek/toudou/commit/a67a66ee37a899a76c99f8835feefced6c985b66))
+
 ## [0.1.8](https://github.com/jobtrek/toudou/compare/v0.1.7...v0.1.8) (2025-06-11)
 
 
