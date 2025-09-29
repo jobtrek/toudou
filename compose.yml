@@ -1,6 +1,6 @@
 services:
   pgsql:
-    image: postgres:17.6
+    image: postgres:18.0
     environment:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
