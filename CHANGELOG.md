@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.11](https://github.com/jobtrek/toudou/compare/v0.1.10...v0.1.11) (2025-10-01)
+
+
+### Miscellaneous Chores
+
+* oups, match shm size to pgsql config ([#49](https://github.com/jobtrek/toudou/issues/49)) ([3d5e511](https://github.com/jobtrek/toudou/commit/3d5e511224b4ed934c38fd2852c7d07252b61a3f))
+* set higher shm size for db container ([#48](https://github.com/jobtrek/toudou/issues/48)) ([0e09165](https://github.com/jobtrek/toudou/commit/0e09165e5c186da269d751cee48d7a481b65f5b6))
+
+
+### Build System
+
+* **deps:** bump postgres from 17.6 to 18.0 ([#47](https://github.com/jobtrek/toudou/issues/47)) ([777cb9e](https://github.com/jobtrek/toudou/commit/777cb9ea8ef410923f6077f6fa1b09ccba4d0e15))
+* **deps:** bump postgrest/postgrest from v13.0.6 to v13.0.7 ([#44](https://github.com/jobtrek/toudou/issues/44)) ([3266160](https://github.com/jobtrek/toudou/commit/3266160149ce7982c4274ecf26b6422819160bd0))
+
 ## [0.1.10](https://github.com/jobtrek/toudou/compare/v0.1.9...v0.1.10) (2025-09-04)
 
 
