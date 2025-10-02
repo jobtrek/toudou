@@ -2,10 +2,9 @@
 
 BEGIN;
 
--- XXX Add DDLs here.
 COMMENT ON SCHEMA api IS
 $$Todo list API
 
-A RESTful API generated with PostggREST and using PostgreSQL to manage todo list.$$;
+A RESTful API generated with PostgREST and using PostgreSQL to manage todo list.$$;
 
 COMMIT;

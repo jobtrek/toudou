@@ -2,6 +2,6 @@
 
 BEGIN;
 
--- XXX Add DDLs here.
+COMMENT ON SCHEMA api IS NULL;
 
 COMMIT;
