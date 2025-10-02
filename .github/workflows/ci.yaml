@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - name: Start the app
+        run: docker compose --env-file=.env.example up --wait
+      - name: Integration test
+        run: |
+          curl --location --remote-name https://github.com/Orange-OpenSource/hurl/releases/download/7.0.0/hurl_7.0.0_amd64.deb
+          sudo dpkg -i hurl_7.0.0_amd64.deb
+          set -eu
+          hurl --test tests/*.hurl
