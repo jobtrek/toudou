@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.13](https://github.com/jobtrek/toudou/compare/v0.1.12...v0.1.13) (2025-10-02)
+
+
+### Miscellaneous Chores
+
+* update swagger and set req duration ([#51](https://github.com/jobtrek/toudou/issues/51)) ([f9a483d](https://github.com/jobtrek/toudou/commit/f9a483d7329e00f7a49e48b7ad463342914bc0ec))
+
 ## [0.1.12](https://github.com/jobtrek/toudou/compare/v0.1.11...v0.1.12) (2025-10-01)
 
 
