@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.15](https://github.com/jobtrek/toudou/compare/v0.1.14...v0.1.15) (2025-10-02)
+
+
+### Tests
+
+* add api end-to-end tests ([#56](https://github.com/jobtrek/toudou/issues/56)) ([2b2785e](https://github.com/jobtrek/toudou/commit/2b2785eccc3fbff4bafb9df9f98015291d248f7e))
+
 ## [0.1.14](https://github.com/jobtrek/toudou/compare/v0.1.13...v0.1.14) (2025-10-02)
 
 
