@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.14](https://github.com/jobtrek/toudou/compare/v0.1.13...v0.1.14) (2025-10-02)
+
+
+### Features
+
+* openapi description ([#54](https://github.com/jobtrek/toudou/issues/54)) ([6e5e918](https://github.com/jobtrek/toudou/commit/6e5e91884af7d53721213bf6ffec8cf94e95cff9))
+
 ## [0.1.13](https://github.com/jobtrek/toudou/compare/v0.1.12...v0.1.13) (2025-10-02)
 
 
