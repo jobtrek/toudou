@@ -11,7 +11,7 @@ services:
       - DB_PGRST_AUTHENTICATOR_ROLE=${DB_PGRST_AUTHENTICATOR_ROLE}
       - DB_PGRST_AUTHENTICATOR_PASS=${DB_PGRST_AUTHENTICATOR_PASS}
     volumes:
-      - pgsql-data:/var/lib/postgresql/data
+      - pgsql-data:/var/lib/postgresql
       - ./initdb:/docker-entrypoint-initdb.d
       - ./postgresql.conf:/etc/postgresql/postgresql.conf
     networks:
