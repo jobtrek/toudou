@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.18](https://github.com/jobtrek/toudou/compare/v0.1.17...v0.1.18) (2025-10-27)
+
+
+### Bug Fixes
+
+* change volume mount for postgres 18 ([#65](https://github.com/jobtrek/toudou/issues/65)) ([3b9c027](https://github.com/jobtrek/toudou/commit/3b9c0272cf420dcd702fd961f46181e90da2e244))
+
+
+### Build System
+
+* **deps:** bump postgrest/postgrest from v13.0.7 to v14.0 ([#63](https://github.com/jobtrek/toudou/issues/63)) ([b1b5084](https://github.com/jobtrek/toudou/commit/b1b5084ff0b69dfa6ee1532746b22526c6007c33))
+* **deps:** bump swaggerapi/swagger-ui from v5.29.4 to v5.29.5 ([#62](https://github.com/jobtrek/toudou/issues/62)) ([48255eb](https://github.com/jobtrek/toudou/commit/48255eb5696915b469fa1381096f6a7214247a1c))
+
 ## [0.1.17](https://github.com/jobtrek/toudou/compare/v0.1.16...v0.1.17) (2025-10-13)
 
 
