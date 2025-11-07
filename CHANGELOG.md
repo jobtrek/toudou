@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/jobtrek/toudou/compare/v1.0.0...v1.0.1) (2025-11-07)
+
+
+### Refactors
+
+* revise postgresql.conf with enhanced settings ([#69](https://github.com/jobtrek/toudou/issues/69)) ([97e66b0](https://github.com/jobtrek/toudou/commit/97e66b04a276c0337d473f68ddff56e1300070a5))
+
 ## [1.0.0](https://github.com/jobtrek/toudou/compare/v0.1.19...v1.0.0) (2025-11-07)
 
 
