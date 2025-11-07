@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://github.com/jobtrek/toudou/compare/v0.1.19...v1.0.0) (2025-11-07)
+
+
+### Miscellaneous Chores
+
+* time to release 1.0.0 ([7689d5b](https://github.com/jobtrek/toudou/commit/7689d5bdb4b0e8c1d78efe02f2545511a8b93bb8))
+
 ## [0.1.19](https://github.com/jobtrek/toudou/compare/v0.1.18...v0.1.19) (2025-11-07)
 
 
