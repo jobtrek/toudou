@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/jobtrek/toudou/compare/v1.0.1...v1.0.2) (2025-11-10)
+
+
+### Build System
+
+* **deps:** bump postgrest/postgrest from v14.0 to v14.1 ([#71](https://github.com/jobtrek/toudou/issues/71)) ([7b66b88](https://github.com/jobtrek/toudou/commit/7b66b88f6c6e81d66c3eb238f6dd2e387b6da89b))
+* **deps:** bump swaggerapi/swagger-ui from v5.30.1 to v5.30.2 ([#72](https://github.com/jobtrek/toudou/issues/72)) ([00524b1](https://github.com/jobtrek/toudou/commit/00524b12a7d98c46043c88137af5a172bb8b94b9))
+
 ## [1.0.1](https://github.com/jobtrek/toudou/compare/v1.0.0...v1.0.1) (2025-11-07)
 
 
