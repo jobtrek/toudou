@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/jobtrek/toudou/compare/v1.0.2...v1.0.3) (2025-11-17)
+
+
+### Build System
+
+* **deps:** bump postgres from 18.0 to 18.1 ([#74](https://github.com/jobtrek/toudou/issues/74)) ([275d692](https://github.com/jobtrek/toudou/commit/275d692c6c852b9c1f48f43f418220381fcd853a))
+
 ## [1.0.2](https://github.com/jobtrek/toudou/compare/v1.0.1...v1.0.2) (2025-11-10)
 
 
