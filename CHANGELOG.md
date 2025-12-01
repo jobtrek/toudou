@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.4](https://github.com/jobtrek/toudou/compare/v1.0.3...v1.0.4) (2025-12-01)
+
+
+### Build System
+
+* **deps:** bump actions/checkout from 5 to 6 ([#76](https://github.com/jobtrek/toudou/issues/76)) ([d0415e9](https://github.com/jobtrek/toudou/commit/d0415e9afc181281cc8877f974e735a34f83c70f))
+* **deps:** bump swaggerapi/swagger-ui from v5.30.2 to v5.30.3 ([#78](https://github.com/jobtrek/toudou/issues/78)) ([d538b4f](https://github.com/jobtrek/toudou/commit/d538b4fe939efb3de0f07d2688f7b2bc0ee7e9a3))
+
 ## [1.0.3](https://github.com/jobtrek/toudou/compare/v1.0.2...v1.0.3) (2025-11-17)
 
 
