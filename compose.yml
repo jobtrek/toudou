@@ -45,7 +45,7 @@ services:
         condition: service_healthy
 
   postgrest:
-    image: postgrest/postgrest:v14.1
+    image: postgrest/postgrest:v14.2
     ports:
       - "${POSTGREST_API_PORT:-3000}:3000"
       - "${POSTGGEST_ADMIN_PORT:-3001}:3001"
