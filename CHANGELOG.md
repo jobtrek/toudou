@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.9](https://github.com/jobtrek/toudou/compare/v1.0.8...v1.0.9) (2026-02-16)
+
+
+### Build System
+
+* **deps:** bump postgres from 18.1 to 18.2 ([#88](https://github.com/jobtrek/toudou/issues/88)) ([f9c6339](https://github.com/jobtrek/toudou/commit/f9c633924c07a8c8e89cbe82cc090fa4424dcfc5))
+* **deps:** bump postgrest/postgrest from v14.4 to v14.5 ([#87](https://github.com/jobtrek/toudou/issues/87)) ([c016d09](https://github.com/jobtrek/toudou/commit/c016d09cee692c1ca22ce8d10db3eb6dbd4c523e))
+
 ## [1.0.8](https://github.com/jobtrek/toudou/compare/v1.0.7...v1.0.8) (2026-02-04)
 
 

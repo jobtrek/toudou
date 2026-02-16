@@ -3,7 +3,7 @@
 > Toudou is an ultra-simple, ultra-light and ultra-insecure to-do list API.
 > This must only serve for experimentation and dev purposes.
 
-**v1.0.8** <!-- x-release-please-version -->
+**v1.0.9** <!-- x-release-please-version -->
 
 ## Architecture
 
