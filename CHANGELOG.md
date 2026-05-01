@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.16](https://github.com/jobtrek/toudou/compare/v1.0.15...v1.0.16) (2026-05-01)
+
+
+### Miscellaneous Chores
+
+* release please include author ([d29fedb](https://github.com/jobtrek/toudou/commit/d29fedbcb8c11ea0180e8eed1205351f7d412040))
+
+
+### Build System
+
+* **deps:** bump googleapis/release-please-action from 4 to 5 ([#107](https://github.com/jobtrek/toudou/issues/107)) ([33059fd](https://github.com/jobtrek/toudou/commit/33059fd1a922df53e136d9fe25974ba4f0b3612a))
+
 ## [1.0.15](https://github.com/jobtrek/toudou/compare/v1.0.14...v1.0.15) (2026-04-21)
 
 
