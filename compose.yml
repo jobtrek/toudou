@@ -1,6 +1,6 @@
 services:
   pgsql:
-    image: postgres:18.3
+    image: postgres:18.4
     shm_size: 512mb
     environment:
       - POSTGRES_USER=${POSTGRES_USER}
