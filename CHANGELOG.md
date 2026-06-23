@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.20](https://github.com/jobtrek/toudou/compare/v1.0.19...v1.0.20) (2026-06-23)
+
+
+### Build System
+
+* **deps:** bump actions/checkout from 6 to 7 ([#118](https://github.com/jobtrek/toudou/issues/118)) ([bea15ca](https://github.com/jobtrek/toudou/commit/bea15ca37426e17bfec6d936be49c3de9c4ec9e3))
+
 ## [1.0.19](https://github.com/jobtrek/toudou/compare/v1.0.18...v1.0.19) (2026-06-08)
 
 
