@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.21](https://github.com/jobtrek/toudou/compare/v1.0.20...v1.0.21) (2026-08-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** update postgrest to v16.2 ([#134](https://github.com/jobtrek/toudou/issues/134)) ([4fedb9b](https://github.com/jobtrek/toudou/commit/4fedb9b48b1ab62395b0287c592bb38a002599f4))
+
+
+### Build System
+
+* **deps:** bump postgres from 18.4 to 18.6 ([#129](https://github.com/jobtrek/toudou/issues/129)) ([ec13765](https://github.com/jobtrek/toudou/commit/ec137656cc35e3ba52963fa69d2a21ea96330615))
+* **deps:** bump swaggerapi/swagger-ui from v5.32.12 to v5.32.14 ([#132](https://github.com/jobtrek/toudou/issues/132)) ([ae3e85e](https://github.com/jobtrek/toudou/commit/ae3e85e7cdae40b3ab61e2ca69a127b2b4e21cc6))
+* **deps:** bump swaggerapi/swagger-ui from v5.32.6 to v5.32.12 ([#126](https://github.com/jobtrek/toudou/issues/126)) ([5a9a0aa](https://github.com/jobtrek/toudou/commit/5a9a0aa62195ea07e055f75df9ec460602522d50))
+
 ## [1.0.20](https://github.com/jobtrek/toudou/compare/v1.0.19...v1.0.20) (2026-06-23)
 
 
