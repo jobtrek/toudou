@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.22](https://github.com/jobtrek/toudou/compare/v1.0.21...v1.0.22) (2026-09-15)
+
+
+### Build System
+
+* **deps:** bump postgrest/postgrest from v16.2 to v16.3 ([#136](https://github.com/jobtrek/toudou/issues/136)) ([4a1bb64](https://github.com/jobtrek/toudou/commit/4a1bb646d076d7d55a4ee40197f81308e9e1d9c5))
+
 ## [1.0.21](https://github.com/jobtrek/toudou/compare/v1.0.20...v1.0.21) (2026-08-24)
 
 
