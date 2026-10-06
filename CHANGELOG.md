@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.24](https://github.com/jobtrek/toudou/compare/v1.0.23...v1.0.24) (2026-10-06)
+
+
+### Build System
+
+* **deps:** bump swaggerapi/swagger-ui from v5.33.0 to v5.33.1 ([#141](https://github.com/jobtrek/toudou/issues/141)) ([5fd5073](https://github.com/jobtrek/toudou/commit/5fd5073833c41b70f6c72cae45c36f3a24e83d22))
+
 ## [1.0.23](https://github.com/jobtrek/toudou/compare/v1.0.22...v1.0.23) (2026-09-28)
 
 
