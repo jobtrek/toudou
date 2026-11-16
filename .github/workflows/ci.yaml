@@ -7,7 +7,8 @@ on:
     
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Hurl 7.0.0's Debian package requires libxml2, absent on Ubuntu 26.04.
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
     steps:
